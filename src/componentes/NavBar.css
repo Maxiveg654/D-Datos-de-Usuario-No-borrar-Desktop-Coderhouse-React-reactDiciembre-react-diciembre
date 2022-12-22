@@ -1,0 +1,54 @@
+
+.navbarra{
+    background-color: #802211;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(rgb(226, 125, 125), green, blue, alpha);
+    box-shadow: 5px 10px rgba(rgb(27, 25, 25), green, blue, alpha);
+
+}
+
+.logo{
+    color:#e2b128;
+    font-size: 35px;
+    padding: 80px;
+    font-weight: bold;
+}
+
+.items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+.items li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.items li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #a57d0f;
+}
+
+.items li a:hover{
+    background-color: #694f07;
+    transition: 0.4s;
+}
+
+.carrito{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #a57d0f;
+    float:right;
+}
